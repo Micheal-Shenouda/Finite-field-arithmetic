@@ -55,4 +55,4 @@ bin += "1"
 
 # 6)Convert binary code  into ascii characters
 bin = int(bin, 2)
-print(binascii.unhexlify('%x' % bin))
+print(binascii.unhexlify('%x' % bin).decode())
